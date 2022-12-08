@@ -18,7 +18,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(255, 230, 150, 1),
+      backgroundColor: Color.fromRGBO(91, 27, 92, 1),
       body: Stack(
         children: [
           Align(

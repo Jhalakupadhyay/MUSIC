@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:soundsoul/Home_Screen.dart';
+import 'package:soundsoul/LOGIN.dart';
 import 'package:soundsoul/Signup.dart';
 
 void main() {
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       routes: {
         'Home' : (context) => Home(),
         'Signup' : (context) => Signup(),
+        'Login' : (context) => Login(),
       },
     );
   }

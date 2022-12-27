@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
+import 'package:firebase_auth/firebase_auth.dart';
 class Home extends StatefulWidget {
-  const Home({Key? key}) : super(key: key);
-
   @override
   State<Home> createState() => _HomeState();
 }
@@ -11,9 +10,20 @@ class _HomeState extends State<Home> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    Timer(Duration(seconds: 3), () {
-      Navigator.pushNamed(context, 'Signup');
-    });
+    final _auth = FirebaseAuth.instance;
+    final user = _auth.currentUser;
+    if(user!=null)
+      {
+        Timer(Duration(seconds: 3), () {
+          Navigator.pushNamed(context, 'Page1');
+        });
+      }
+    else
+      {
+        Timer(Duration(seconds: 3), () {
+          Navigator.pushNamed(context, 'Login');
+        });
+      }
   }
   @override
   Widget build(BuildContext context) {

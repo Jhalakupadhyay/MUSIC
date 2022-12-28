@@ -120,6 +120,7 @@ class _LoginState extends State<Login> {
                 child: Text('LOGIN',style: TextStyle(color: Colors.black),),
               ),
             ),
+            TextButton(onPressed: (){Navigator.pushNamed(context, 'Signup');}, child: Text('           New user Signup')),
           ],
         ),
       ),

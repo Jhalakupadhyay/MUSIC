@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:soundsoul/Home_Screen.dart';
 import 'package:soundsoul/LOGIN.dart';
 import 'package:soundsoul/Music1.dart';
+import 'package:soundsoul/PLayer.dart';
+import 'package:soundsoul/playlist.dart';
 import 'package:soundsoul/Signup.dart';
 
 Future<void> main() async{
@@ -27,6 +29,8 @@ class MyApp extends StatelessWidget {
         'Signup' : (context) => Signup(),
         'Login' : (context) => Login(),
         'Page1' : (context) => Page1(),
+        'Player' : (context) => Player(),
+        'Playlist' : (context) => playlist(),
       },
     );
   }

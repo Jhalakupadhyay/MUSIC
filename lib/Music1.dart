@@ -136,6 +136,7 @@ class _Page1State extends State<Page1> {
               Column(
                 children: [
                   ListView.builder(
+                    physics: NeverScrollableScrollPhysics(),
                     shrinkWrap: true,
                     itemCount: playlists.length,
                     itemBuilder: ((context, index) {

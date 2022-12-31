@@ -13,26 +13,26 @@ class song{
     song(
       title: 'As it was',
       description: 'Harry Styles',
-      url: 'Assets/songs/AsitWas',
-      coverurl: 'Images/download.png',
+      url: 'https://soundcloud.com/house-hub/harry-styles-as-it-was-casperzz-remix',
+      coverurl: 'Images/HarryStyles.webp',
     ),
     song(
       title: 'Wrecked',
       description: 'Imagine Dragons',
-      url: 'Assets/songs/Wrecked',
+      url: 'https://soundcloud.com/tr-n-anh-v-427439220/imagine-dragons-wrecked',
       coverurl: 'Images/download.png',
     ),
     song(
       title: 'Unholy',
       description: 'Sam Smith',
-      url: 'Assets/songs/Unholy',
-      coverurl: 'Images/download.png',
+      url: 'https://soundcloud.com/troyboi/sam-smith-ft-kim-petras-unholy-troyboi-remix',
+      coverurl: 'Images/unholy.webp',
     ),
     song(
       title: 'Breaking Me',
       description: 'Hugel',
-      url: 'Assets/songs/Breaking',
-      coverurl: 'Images/download.png',
+      url: 'https://soundcloud.com/tink_g/tink-breakin-me',
+      coverurl: 'Images/Hugel.png',
     ),
   ];
 }

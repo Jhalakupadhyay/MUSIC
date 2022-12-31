@@ -16,7 +16,7 @@ class Song_Card extends StatelessWidget {
         Navigator.pushNamed(context, 'Player');
       },
       child: Container(
-        margin: EdgeInsets.only(left: 10.0),
+        margin: EdgeInsets.only(left: 5.0),
         child: Stack(alignment: Alignment.bottomCenter, children: [
           Container(
             width: MediaQuery.of(context).size.height * 0.20,
